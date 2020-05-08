@@ -1,0 +1,26 @@
+{
+  "name":"cypress_test",
+  "version":"1.0.0",
+  "description":"Basic Cypress setup with jenkins for Automation",
+  "main":"index.js",
+  "repository":{
+     "type":"git",
+     "url":"git+https://github.com/mujjazi/Cypress_Jenkins.git"
+  },
+  "keywords":[
+     "Cypress"
+  ],
+  "author":"Mujtaba",
+  "license":"ISC",
+  "bugs":{
+     "url":"https://github.com/mujjazi/Cypress_Jenkins/issues"
+  },
+  "scripts":{
+      "cy:open":     "cypress open",
+      "cy:run":      "cypress run"
+  },
+  "homepage":"https://github.com/mujjazi/Cypress_Jenkins#readme",
+  "dependencies":{
+     "cypress":"^4.5.0"
+  }
+}
