@@ -70,11 +70,11 @@ describe('Portal Creation', () => {
 
       cy.get('[name="importApiForm"]').eq(0).submit()   // Submit a form
       
-      cy.wait(5000)
+      cy.wait(2000)
 
-      cy.get("body").then($body => {
-      cy.get('body').click(500, 500)
-      });
+     // cy.get("body").then($body => {
+      //cy.get('body').click(500, 500)
+      //});
       //cy.get('[data-dismiss="modal"]').click();
   
 
