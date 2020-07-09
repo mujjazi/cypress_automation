@@ -1,8 +1,31 @@
 describe('Portal Creation', () => {
     it('Portal', () => {
+
+      var randomInteger = function(maxInt) {
+        return Math.floor(Math.random() * (maxInt + 1));
+    };
+
+      const user = {
+        name: 'Automated Test',
+        username: 'mujtaba.mehdi',
+        domain:  '@apimatic.io',
+        rand: randomInteger(9),
+        email: user.username+user.rand+user.domain,
+        password: 'Pakistan@123',
+        number: 123456789
+      }
       cy.viewport(1920,1080)
 
       cy.visit('https://apimatic.io/')
+      
+      cy.get('a[href*="register"]').click()
+      cy.get('#signUpInputName').type(user.name)
+      cy.get('#signUpInputEmail').type(user.email)
+      cy.get('#signUpInputPassword').type(user.password)
+      cy.get('#signUpInputCompany').type(user.name)
+      cy.get('#signUpInputPhoneNumber').type(user.number)
+      cy.get('[data-sitekey="6LdiJaYZAAAAALVNZs7si7T8k1YtVZHNc_auC4Hx"]').click
+      
       //cy.get('//*[@id="gatsby-focus-wrapper"]/div/nav/div/button').click();
       cy.get('a[href*="login"]').click()
 
@@ -36,8 +59,6 @@ describe('Portal Creation', () => {
       }
   });
 
-    
-
       cy.get('.import-api').click();
       cy.wait(4000) // wait for 2 seconds
 
@@ -51,8 +72,11 @@ describe('Portal Creation', () => {
       
       cy.wait(5000)
 
+      cy.get("body").then($body => {
+      cy.get('body').click(500, 500)
+      });
       //cy.get('[data-dismiss="modal"]').click();
-      cy.click(500, 500)
+  
 
       cy.get('.api-card').contains('Channel Management API');
   
