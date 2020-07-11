@@ -16,17 +16,17 @@ npm i
 NPM - If you want to know what does "npm i" do
 
 ## How to run tests:
+
 This command will execute all avaliable tests:
-
 npm run test:e2e
+
 This command will execute functional tests:
-
 npm test:e2e:functional
+
 This command will execute smoke tests:
-
 npm run test:e2e:smoke
-This command will open Cypress GUI:
 
+This command will open Cypress GUI:
 npm run cypress open
 
 
