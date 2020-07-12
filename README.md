@@ -8,7 +8,7 @@ This is an Automated test framework which is build to test APIMatic Web Applicat
 
 - [Getting Started](#getting-started)
 - [Installing](#Installing)
-- [How to Run](#How to run tests)
+- [How to Run tests](#Howtoruntests)
 - [License](#license)
 
 
