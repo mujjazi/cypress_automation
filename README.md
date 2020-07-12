@@ -1,5 +1,9 @@
 # Cypress ![GitHub](https://img.shields.io/github/license/mujjazi/cypress_jenkins)
 
+<div align="center">
+  <img src="https://cdn.deliciousbrains.com/content/uploads/2018/09/28135025/db-End2EndTestingCypress-1540x748.jpg"><br>
+</div>
+
 # Automated E2E tests of a JavaScript (Typescript/React Native) based application
 
 This is an Automated test framework which is build to test APIMatic Web Application Functionality using Cypress.
