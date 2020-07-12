@@ -1,6 +1,16 @@
 # Cypress ![GitHub](https://img.shields.io/github/license/mujjazi/cypress_jenkins)
+
 # Automated E2E tests of a JavaScript (Typescript/React Native) based application
+
 This is an Automated test framework which is build to test APIMatic Web Application Functionality using Cypress.
+
+## Table of Contents
+
+- [Getting Started](#getting-started)
+- [Installing](#Installing)
+- [How to Run](#How to run tests)
+- [License](#license)
+
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
@@ -29,6 +39,8 @@ npm run test:e2e:smoke
 This command will open Cypress GUI:
 npm run cypress open
 
+## License
+This project is [MIT licensed](./LICENSE).
 
 ## Authors
 ### Mujtaba Mehdi
