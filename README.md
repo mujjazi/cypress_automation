@@ -1,4 +1,4 @@
-# Cypress ![GitHub](https://img.shields.io/github/license/mujjazi/cypress_jenkins)
+# Cypress ![GitHub](https://img.shields.io/github/license/mujjazi/cypress_jenkins) [![Build Status](https://travis-ci.com/mujjazi/Cypress_Jenkins.svg?branch=master)](https://travis-ci.com/mujjazi/Cypress_Jenkins)
 
 <div align="center">
   <img src="https://cdn.deliciousbrains.com/content/uploads/2018/09/28135025/db-End2EndTestingCypress-1540x748.jpg"><br>
