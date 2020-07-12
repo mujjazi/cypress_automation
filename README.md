@@ -31,4 +31,4 @@ npm run cypress open
 
 
 ## Authors
-### https://img.shields.io/badge/<Mujtaba Mehdi>-<Test Automation Expert>-<Blue>
+### Mujtaba Mehdi
