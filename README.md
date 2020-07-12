@@ -1,4 +1,5 @@
-# Cypress ![GitHub](https://img.shields.io/github/license/mujjazi/cypress_jenkins) [![Build Status](https://travis-ci.com/mujjazi/Cypress_Jenkins.svg?branch=master)](https://travis-ci.com/mujjazi/Cypress_Jenkins) [![Actions Status](https://github.com/RobDWaller/csp-generator/workflows/Build%20and%20Test/badge.svg)](https://github.com/mujjazi/Cypress_Jenkins/actions)
+# Cypress ![GitHub](https://img.shields.io/github/license/mujjazi/cypress_jenkins) [![Build Status](https://travis-ci.com/mujjazi/Cypress_Jenkins.svg?branch=master)](https://travis-ci.com/mujjazi/Cypress_Jenkins) [![Actions Status](https://xxx.execute-api.us-west-2.amazonaws.com/production/badge/mujjazi/Cypress_Jenkins)](https://xxx.execute-api.us-west-2.amazonaws.com/production/results/mujjazi/Cypress_Jenkins)
+
 
 <div align="center">
   <img src="https://cdn.deliciousbrains.com/content/uploads/2018/09/28135025/db-End2EndTestingCypress-1540x748.jpg"><br>
