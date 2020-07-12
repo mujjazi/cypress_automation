@@ -1,4 +1,4 @@
-# Cypress ![GitHub](https://img.shields.io/github/license/mujjazi/cypress_jenkins) [![Build Status](https://travis-ci.com/mujjazi/Cypress_Jenkins.svg?branch=master)](https://travis-ci.com/mujjazi/Cypress_Jenkins) [![Actions Status](https://xxx.execute-api.us-west-2.amazonaws.com/production/badge/mujjazi/Cypress_Jenkins)](https://xxx.execute-api.us-west-2.amazonaws.com/production/results/mujjazi/Cypress_Jenkins)
+# Cypress ![GitHub](https://img.shields.io/github/license/mujjazi/cypress_jenkins) [![Build Status](https://travis-ci.com/mujjazi/Cypress_Jenkins.svg?branch=master)](https://travis-ci.com/mujjazi/Cypress_Jenkins)
 
 
 <div align="center">
