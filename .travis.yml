@@ -7,4 +7,4 @@ addons:
       # needed by Cypress, not in Ubuntu 16+ by default
       - libgconf-2-4
 script:
-  - cypress run --record --key 01beea46-5bc0-41a9-be9d-03eedaf36589
+  - cypress run --key 01beea46-5bc0-41a9-be9d-03eedaf36589
