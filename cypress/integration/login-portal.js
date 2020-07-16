@@ -3,7 +3,7 @@ describe('Login and Import Test', () => {
       
       const xpath = require('cypress-xpath')
 
-      cy.visit('https://www.apimatic.io/')  
+      cy.visit(Cypress.config().baseUrl)  
       cy.get('a[href*="login"]').click()
       cy.get('#Email').click();
       cy.get('#Email').type('mujtaba.mehdi@apimatic.io');
@@ -22,7 +22,7 @@ describe('Login and Import Test', () => {
           cy.get('[ng-hide="allSelected"]').contains('Select All').click()
           cy.get('[ng-click="screen_1_primaryButtonClicked()"]').first().click()
           cy.get('[ng-click="DeleteAPIVersion()"]').first().click()
-          cy.wait(7000) // wait for 2 seconds
+          cy.wait(4000) // wait for 2 seconds
         }
     });
 // check for an already present welcome tour and skip it

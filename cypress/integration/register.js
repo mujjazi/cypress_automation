@@ -21,7 +21,7 @@ Cypress.on('uncaught:exception', (err, runnable) => {
     var password = 'Pakistan@123'
     
     
-    cy.visit('https://www.apimatic.io/')  
+    cy.visit(Cypress.config().baseUrl)  
     cy.get('a[href*="register"]').first().click()
     cy.get('#signUpInputName').type(name)
     cy.get('#signUpInputEmail').type(randemail)
