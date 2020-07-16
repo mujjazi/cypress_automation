@@ -24,6 +24,7 @@
       "cypress": "^4.5.0"
    },
    "devDependencies": {
+      "cypress-file-upload": "^4.0.7",
       "cypress-xpath": "^1.6.0"
    }
 }

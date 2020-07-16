@@ -1,7 +1,9 @@
 {
-  "projectId": "pttz39",
- "chromeWebSecurity": false,
- "viewportWidth": 1920,
-  "viewportHeight": 1080
+
+"projectId": "pttz39",
+"chromeWebSecurity": false,
+"viewportWidth": 1920,
+"viewportHeight": 1080
+,"baseUrl":"https://www.apimatic.io/"
 }
 
