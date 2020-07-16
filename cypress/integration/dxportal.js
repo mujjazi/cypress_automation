@@ -34,7 +34,11 @@ describe('DX Portal Test', () => {
     });
 
         cy.contains('Generate Portal').click();
+<<<<<<< HEAD
         cy.get('#apiDescriptionURL').type('https://github.com/mujjazi/Cypress_Jenkins/blob/master/bookingpal.json-Swagger20.json');
+=======
+        cy.get('#apiDescriptionURL').type('https://petstore.swagger.io/v2/swagger.json');
+>>>>>>> 26b4c8b8220d2b5cbc42acbed59d06137ad23c0d
         cy.wait(2000) // wait for 4 seconds
         cy.get('[name="dxPortalImportForm"]').eq(0).submit()   // Submit a form
         cy.wait(8000) // wait for 8 seconds
