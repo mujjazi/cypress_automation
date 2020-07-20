@@ -4,6 +4,9 @@ on:
  push:
   branches: 
    - master
+   - cypress-dev
+   - cypress-dev-1
+   - cypress-dev-1-1
 jobs:
   cypress-run:
     runs-on: ubuntu-16.04
@@ -14,11 +17,4 @@ jobs:
       - uses: cypress-io/github-action@v2
         with:
           browser: chrome
-  master-test:
-    runs-on: ubuntu-16.04
-    name: PR Test
-    steps:
-      - uses: actions/checkout@v1
-      - uses: cypress-io/github-action@v2
-        with:
-          browser: firefox
+
