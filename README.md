@@ -1,11 +1,9 @@
-# Cypress ![GitHub](https://img.shields.io/github/license/mujjazi/cypress_jenkins) ![E2E on Chrome](https://github.com/mujjazi/Cypress_Jenkins/workflows/E2E%20on%20Chrome/badge.svg) [![Build Status](https://travis-ci.com/mujjazi/cypress_automation.svg?branch=master)](https://travis-ci.com/mujjazi/cypress_automation)
+# Automated E2E tests of a JavaScript (Typescript/React Native) based application ![GitHub](https://img.shields.io/github/license/mujjazi/cypress_jenkins) ![E2E on Chrome](https://github.com/mujjazi/Cypress_Jenkins/workflows/E2E%20on%20Chrome/badge.svg) [![Build Status](https://travis-ci.com/mujjazi/cypress_automation.svg?branch=master)](https://travis-ci.com/mujjazi/cypress_automation)
 
 
 <div align="center">
   <img src="https://cdn.deliciousbrains.com/content/uploads/2018/09/28135025/db-End2EndTestingCypress-1540x748.jpg"><br>
 </div>
-
-# Automated E2E tests of a JavaScript (Typescript/React Native) based application
 
 This is an Automated test framework which is build to test APIMatic Web Application Functionality using Cypress.
 
