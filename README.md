@@ -1,4 +1,4 @@
-# Cypress ![GitHub](https://img.shields.io/github/license/mujjazi/cypress_jenkins) ![E2E on Chrome](https://github.com/mujjazi/Cypress_Jenkins/workflows/E2E%20on%20Chrome/badge.svg) [![Build Status](https://travis-ci.com/mujjazi/Cypress_Jenkins.svg?branch=master)](https://travis-ci.com/mujjazi/cypress_automation)
+# Cypress ![GitHub](https://img.shields.io/github/license/mujjazi/cypress_jenkins) ![E2E on Chrome](https://github.com/mujjazi/Cypress_Jenkins/workflows/E2E%20on%20Chrome/badge.svg) [![Build Status](https://travis-ci.com/mujjazi/cypress_automation.svg?branch=master)](https://travis-ci.com/mujjazi/cypress_automation)
 
 
 <div align="center">
