@@ -34,6 +34,7 @@ describe('DX Portal Test', () => {
     });
 
         cy.contains('Generate Portal').click();
+        cy.wait(2000)
         cy.get('#apiDescriptionURL').type('https://petstore.swagger.io/v2/swagger.json');
         cy.wait(2000) // wait for 4 seconds
         cy.get('[name="dxPortalImportForm"]').eq(0).submit()   // Submit a form
