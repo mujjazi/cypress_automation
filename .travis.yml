@@ -1,6 +1,10 @@
+if: (type = pull_request AND branch IN (master, dev))
 language: node_js
 node_js: 
   - "stable"
+branches:
+  only: 
+    - master
 cache:
   directories:
     - "node_modules"
