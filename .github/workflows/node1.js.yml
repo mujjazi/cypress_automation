@@ -19,3 +19,10 @@ jobs:
       - uses: cypress-io/github-action@v2
         with:
           browser: chrome
+  tests:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: cypress-io/github-action@v2
+        with:
+          browser: edge
