@@ -1,12 +1,6 @@
 name: E2E on Chrome
 on:
  pull_request:
- push:
-  branches: 
-   - master
-   - cypress-dev
-   - cypress-dev-1
-   - cypress-dev-1-1
 jobs:
   cypress-run:
     runs-on: ubuntu-16.04
