@@ -21,7 +21,6 @@ This will create a copy of this repository in your account.
 
 ## Clone the repository
 
-<img align="right" width="300" src="assets/clone.png" alt="clone this repository" />
 
 Now clone the forked repository to your machine. Go to your GitHub account, open the forked repository, click on the clone button and then click the *copy to clipboard* icon.
 
@@ -32,7 +31,6 @@ git clone "url you just copied"
 ```
 where "url you just copied" (without the quotation marks) is the url to this repository (your fork of this project). See the previous steps to obtain the url.
 
-<img align="right" width="300" src="assets/copy-to-clipboard.png" alt="copy URL to clipboard" />
 
 For example:
 ```
@@ -105,12 +103,12 @@ Soon I'll be merging all your changes into the master branch of this project. Yo
 
 Below is a list of commands you will probably find useful during local development.
 
+### Follow the guide here to install and write tests using Cypress https://docs.cypress.io/guides/getting-started/installing-cypress.html#System-requirements
+
 ```bash
 # Installs dependencies for the project. You need to run this before you start any work.
 # You also need to run this everytime the package.json or package-lock.json files change.
 npm install cypress --save-dev
-
-# In case of Cypress, follow the guide here to install and write tests using Cypress https://docs.cypress.io/guides/getting-started/installing-cypress.html#System-requirements
 
 # If you used npm to install, Cypress has now been installed to your ./node_modules directory, with its binary executable accessible from ./node_modules/.bin.
 
