@@ -58,23 +58,18 @@ git checkout -b add-mujtaba-mehdi
 
 ## Make necessary changes and commit those changes
 
-Now open `Contributors.md` file in a text editor, add your name to it. Don't add it at the beginning or end of the file. Put it anywhere in between. Now, save the file.
-
-<img align="right" width="450" src="assets/git-status.png" alt="git status" />
-
-
 If you go to the project directory and execute the command `git status`, you'll see there are changes.
 
 
 Add those changes to the branch you just created using the `git add` command:
 
 ```
-git add Contributors.md
+git add .
 ```
 
 Now commit those changes using the `git commit` command:
 ```
-git commit -m "Add <your-name> to Contributors list"
+git commit -m "Add <your-name>"
 ```
 replacing `<your-name>` with your name.
 
@@ -90,11 +85,7 @@ replacing `<add-your-branch-name>` with the name of the branch you created earli
 
 If you go to your repository on GitHub, you'll see a  `Compare & pull request` button. Click on that button.
 
-<img style="float: right;" src="assets/compare-and-pull.png" alt="create a pull request" />
-
 Now submit the pull request.
-
-<img style="float: right;" src="assets/submit-pull-request.png" alt="submit pull request" />
 
 Soon I'll be merging all your changes into the master branch of this project. You will get a notification email once the changes have been merged.
 
@@ -103,29 +94,29 @@ Soon I'll be merging all your changes into the master branch of this project. Yo
 
 Below is a list of commands you will probably find useful during local development.
 
-### Follow the guide here to install and write tests using Cypress https://docs.cypress.io/guides/getting-started/installing-cypress.html#System-requirements
+### Follow the guide here to install and write tests using Cypress from [here](https://docs.cypress.io/guides/getting-started/installing-cypress.html#System-requirements) 
 
 ```bash
 # Installs dependencies for the project. You need to run this before you start any work.
 # You also need to run this everytime the package.json or package-lock.json files change.
+
 npm install cypress --save-dev
 
 # If you used npm to install, Cypress has now been installed to your ./node_modules directory, with its binary executable accessible from ./node_modules/.bin.
 
 # Now you can open Cypress from your project root one of the following ways:
-
 # The long way with the full path
+
 ./node_modules/.bin/cypress open
 
 ```
 
 ## Writing the first spec
-Follow the below guide to create your first test case to start understanding the basic directory structure and syntax of Cypress
-https://docs.cypress.io/guides/getting-started/writing-your-first-test.html#Write-your-first-test
+Follow the below guide to create your first test case to start understanding the basic directory structure and syntax of Cypress from [here](https://docs.cypress.io/guides/getting-started/writing-your-first-test.html#Write-your-first-test)
 
 
 
 ### Author
 Mujtaba Mehdi,
 Feel free to connect on LinkedIn to discuss collaboration ideas.
-https://www.linkedin.com/in/mujtabamehdi9
+[LinkedIn](https://www.linkedin.com/in/mujtabamehdi9)
