@@ -1,48 +1,133 @@
-# Automated E2E tests of a JavaScript (Typescript/React Native) based application ![GitHub](https://img.shields.io/github/license/mujjazi/cypress_jenkins) ![E2E on Chrome](https://github.com/mujjazi/Cypress_Jenkins/workflows/E2E%20on%20Chrome/badge.svg) 
+# Automated E2E tests using Cypress.io of a JavaScript (Typescript/React Native) based application ![GitHub](https://img.shields.io/github/license/mujjazi/cypress_jenkins) ![E2E on Chrome](https://github.com/mujjazi/Cypress_Jenkins/workflows/E2E%20on%20Chrome/badge.svg) 
 
 <div align="center">
   <img src="https://cdn.deliciousbrains.com/content/uploads/2018/09/28135025/db-End2EndTestingCypress-1540x748.jpg"><br>
 </div>
 
-This is an Automated test framework which is build to test APIMatic Web Application Functionality using Cypress.
+This is an open source project for the Web Automation project at APIMatic for our web application http://apimatic.io/.
 
-## Table of Contents
+- [Contributing](#contributing)
+- [Building, Testing and Other Useful Commands](#building-testing-and-other-useful-commands)
+- [Writing the first spec](#writing-the-first-spec)
 
-- [Getting Started](#getting-started)
-- [Installing](#Installing)
-- [How to Run tests](#Howtoruntests)
-- [License](#license)
+## Contributing
+
+If you don't have git on your machine, [install it]( https://help.github.com/articles/set-up-git/).
+
+## Fork this repository
+
+Fork this repository by clicking on the fork button on the top of this page.
+This will create a copy of this repository in your account.
+
+## Clone the repository
+
+<img align="right" width="300" src="assets/clone.png" alt="clone this repository" />
+
+Now clone the forked repository to your machine. Go to your GitHub account, open the forked repository, click on the clone button and then click the *copy to clipboard* icon.
+
+Open a terminal and run the following git command:
+
+```
+git clone "url you just copied"
+```
+where "url you just copied" (without the quotation marks) is the url to this repository (your fork of this project). See the previous steps to obtain the url.
+
+<img align="right" width="300" src="assets/copy-to-clipboard.png" alt="copy URL to clipboard" />
+
+For example:
+```
+git clone https://github.com/mujjazi/cypress_automation.git
+```
+where `this-is-you` is your GitHub username. Here you're copying the contents of the first-contributions repository on GitHub to your computer.
+
+## Create a branch
+
+Change to the repository directory on your computer (if you are not already there):
+
+```
+cd first-contributions
+```
+Now create a branch using the `git checkout` command:
+```
+git checkout -b <add-your-new-branch-name>
+```
+
+For example:
+```
+git checkout -b add-mujtaba-mehdi
+```
+(The name of the branch does not need to have the word *add* in it, but it's a reasonable thing to include because the purpose of this branch is to add your name to a list.)
+
+## Make necessary changes and commit those changes
+
+Now open `Contributors.md` file in a text editor, add your name to it. Don't add it at the beginning or end of the file. Put it anywhere in between. Now, save the file.
+
+<img align="right" width="450" src="assets/git-status.png" alt="git status" />
 
 
-## Getting Started
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+If you go to the project directory and execute the command `git status`, you'll see there are changes.
 
-## Installing
-A step by step series of examples that tell you how to get a development env running
 
-## Navigate to the folder where your project is located.
+Add those changes to the branch you just created using the `git add` command:
 
-Run this command in Terminal to install Npm packages.
-npm i
+```
+git add Contributors.md
+```
 
-NPM - If you want to know what does "npm i" do
+Now commit those changes using the `git commit` command:
+```
+git commit -m "Add <your-name> to Contributors list"
+```
+replacing `<your-name>` with your name.
 
-## How to run tests:
+## Push changes to GitHub
 
-This command will execute all avaliable tests:
-npm run test:e2e
+Push your changes using the command `git push`:
+```
+git push origin <add-your-branch-name>
+```
+replacing `<add-your-branch-name>` with the name of the branch you created earlier.
 
-This command will execute functional tests:
-npm test:e2e:functional
+## Submit your changes for review
 
-This command will execute smoke tests:
-npm run test:e2e:smoke
+If you go to your repository on GitHub, you'll see a  `Compare & pull request` button. Click on that button.
 
-This command will open Cypress GUI:
-npm run cypress open
+<img style="float: right;" src="assets/compare-and-pull.png" alt="create a pull request" />
 
-## License
-This project is [MIT licensed](./LICENSE).
+Now submit the pull request.
 
-## Authors
-### Mujtaba Mehdi
+<img style="float: right;" src="assets/submit-pull-request.png" alt="submit pull request" />
+
+Soon I'll be merging all your changes into the master branch of this project. You will get a notification email once the changes have been merged.
+
+
+## Building, Running and Other Useful Commands
+
+Below is a list of commands you will probably find useful during local development.
+
+```bash
+# Installs dependencies for the project. You need to run this before you start any work.
+# You also need to run this everytime the package.json or package-lock.json files change.
+npm install cypress --save-dev
+
+# In case of Cypress, follow the guide here to install and write tests using Cypress https://docs.cypress.io/guides/getting-started/installing-cypress.html#System-requirements
+
+# If you used npm to install, Cypress has now been installed to your ./node_modules directory, with its binary executable accessible from ./node_modules/.bin.
+
+# Now you can open Cypress from your project root one of the following ways:
+
+# The long way with the full path
+./node_modules/.bin/cypress open
+
+```
+
+## Writing the first spec
+Follow the below guide to create your first test case to start understanding the basic directory structure and syntax of Cypress
+https://docs.cypress.io/guides/getting-started/writing-your-first-test.html#Write-your-first-test
+
+
+
+### Author
+Mujtaba Mehdi,
+Feel free to connect on LinkedIn to discuss collaboration ideas.
+https://www.linkedin.com/in/mujtabamehdi9
