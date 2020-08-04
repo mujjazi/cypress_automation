@@ -8,7 +8,7 @@ describe('Login and Import Test', () => {
       cy.get('#Email').click();
       cy.get('#Email').type('mujtaba.mehdi@apimatic.io');
       cy.get('#js-onboarding-password-field').click();
-      cy.get('#js-onboarding-password-field').type('Pakistan@123');
+      cy.get('#js-onboarding-password-field').type('testtest');
       // simulate clicking submit
       cy.get('button[type=submit]').click();
       // Should be on a new URL which includes '/dashboard'
