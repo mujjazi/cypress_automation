@@ -12,15 +12,5 @@ jobs:
         uses: cypress-io/github-action@v2
         with:
           browser: chrome
-
-  firefox:
-    runs-on: ubuntu-latest
-    container:
-      image: cypress/browsers:node12.16.1-chrome80-ff73
-      options: --user 1001
-    steps:
-      - uses: actions/checkout@v1
-      - uses: cypress-io/github-action@v2
-        with:
-          browser: firefox
-     
+        env:
+          CYPRESS_baseUrl: https://dev.apimatic.io/
