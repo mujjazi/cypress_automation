@@ -7,12 +7,6 @@ jobs:
     # let's make sure our tests pass on Chrome browser
     name: E2E on Chrome
     steps:
-     - name: Checkout latest commit
-     - uses: actions/checkout@v1
-     - uses: cypress-io/github-action@v2
-       with:
-          browser: chrome
-
      - name: Cache node modules
      - uses: actions/cache@v1
        with:
@@ -20,4 +14,11 @@ jobs:
           key: nodeModules-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
             nodeModules-
+     - name: Checkout latest commit
+     - uses: actions/checkout@v1
+     - uses: cypress-io/github-action@v2
+       with:
+          browser: chrome
+
+
      
