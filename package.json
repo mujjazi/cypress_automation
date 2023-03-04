@@ -21,7 +21,7 @@
    },
    "homepage": "https://github.com/mujjazi/Cypress_Jenkins#readme",
    "dependencies": {
-      "cypress": "^4.5.0"
+      "cypress": "^4.12.1"
    },
    "devDependencies": {
       "cypress-file-upload": "^4.0.7",
